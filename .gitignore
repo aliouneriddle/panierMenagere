@@ -1,0 +1,66 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.env
+
+# Django
+*.log
+*.pot
+*.pyc
+*.mo
+*.compiled
+*.log
+
+# Virtual Environment
+venv/
+env/
+ENV/
+ENV*/
+.env
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+__pycache__/
+*.pyo
+*.db
+*.sqlite3
+media
+staticfiles
+
+# Ignore the local SQLite database
+db.sqlite3
+db.sqlite3-journal
+
+# If you are using the Celery message queue:
+celerybeat-schedule
+
+# Django migrations
+**/migrations/*
+
+# Coverage reports
+htmlcov/
+.coverage
+.tox/
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# PyCharm
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
